@@ -58,6 +58,7 @@ GitHub Action for automatically syncing LeetCode submissions to a GitHub reposit
              commit-header: "[LeetCode Sync]"
    ```
 
+6. Go to your repository's `Settings` tab, and in the left sidebar, click  Actions, then click General. Under `Workflow permissions`, change to `Read and Write permissions`
 6. After you've submitted a LeetCode solution, run the workflow by going to the `Actions` tab, clicking the action name, e.g. `Sync Leetcode`, and then clicking `Run workflow`. The workflow will also automatically run once a week by default (can be configured via the `cron` parameter).
 
 ## Inputs
